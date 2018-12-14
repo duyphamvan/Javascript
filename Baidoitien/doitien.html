@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="doitien.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+	<form action="" class="formm">
+		<h2>Amount:</h2>
+		<input type="text" name="sotien" value="" id="amount">
+		
+
+		<h2>From Currency</h2> 
+		<select name="" id="from">
+			<option value="VND">VietNam(VND)</option>
+			<option value="USD">USA(USD)</option>
+		</select>
+		
+
+
+		<h3>To Currency</h3>	
+		<select name="" id="to">
+			<option value="USD">USD(USA)</option>
+			<option value="VND">Viet Nam(VND)</option>
+		</select>
+		<br>
+		<button class="nut" type="button" onclick="doitien();">Convert</button>
+		<h2 id="thongbao"></h2>
+	</form>
+
+	<script src="doitien.js"></script>
+</body>
+</html>

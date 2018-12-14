@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#amount{
+	width: 200px;
+	height: 47px;
+	text-align: center;
+	background: #8080802b;
+	border: 1px solid gray;
+}
+
+#amount:hover {
+    background-color: #2196F3;
+    color: white;
+}
+
+h2,h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: gray;
+}
+
+.nut {
+    width: 200px;
+    height: 50px;
+    margin: 21px;
+    color: white;
+    background-color: #00ff68;
+}
+
+#from, #to {
+    width: 200px;
+    height: 53px;
+    margin-top: 13px;
+    background-color: #156aad;
+    text-align: center;
+    color: white;
+}
+
+#to:hover {
+    background-color: #f3f3f3;
+    color:black;
+}
+
+#from:hover {
+    background-color: #f3f3f3;
+    color:black;
+}
+
+.formm {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
